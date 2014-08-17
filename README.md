@@ -7,8 +7,9 @@ This is the homepage for the [Software Carpentry](software-carpentry.org/) [Texa
 ##Schedule
 
 ###Day One
+|Time | Topic |
 |-----|------------------------------|
-|8 am | Last-minute install issues. |
+|8 am | Last-minute install issues   |
 |9-9:15 | Introduction |
 |9:15-10:30 | Shell |
 |10:30-10:45 | Coffee |
@@ -21,7 +22,8 @@ This is the homepage for the [Software Carpentry](software-carpentry.org/) [Texa
 |4:15-4:30 | Minute papers. What is clear? What are you unclear about? |
 
 ###Day Two:
-|-----|------------------------------|
+|Time   | Topic |
+|-------|------------------------------|
 |9-9:15 | Recap of Day one, clarify confusing points |
 |9:15-10:30 | Unit testing |
 |10:30-10:45 | Coffee |
