@@ -2,13 +2,12 @@ TTU
 ===
 
 #Welcome!
-
-This is the homepage for the Software Carpentry Texas Tech repository. On this site, you'll find the code and documents for the course.
+This is the homepage for the [Software Carpentry](software-carpentry.org/) [Texas Tech](http://www.ttu.edu/) [bootcamp](http://wrightaprilm.github.io/2014-08-23-ttu/) repository. On this site, you'll find the code and documents for the course.
 
 ##Schedule
 
 ###Day One
-
+|-----|------------------------------|
 |8 am | Last-minute install issues. |
 |9-9:15 | Introduction |
 |9:15-10:30 | Shell |
@@ -22,6 +21,7 @@ This is the homepage for the Software Carpentry Texas Tech repository. On this s
 |4:15-4:30 | Minute papers. What is clear? What are you unclear about? |
 
 ###Day Two:
+|-----|------------------------------|
 |9-9:15 | Recap of Day one, clarify confusing points |
 |9:15-10:30 | Unit testing |
 |10:30-10:45 | Coffee |
