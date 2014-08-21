@@ -40,7 +40,7 @@ This is the homepage for the [Software Carpentry](software-carpentry.org/) [Texa
 |10:30-10:45 | Coffee ||
 |10:45-12 | I assume we might need to wrap unit testing during this slot. If we have extra time, I could introduce the os module and good data practices ||
 |12-1 | Lunch ||
-|1-2:30 | Python II | Data Crunching and plotting ||
+|1-2:30 | Python II | Numpy and [plotting](https://github.com/wrightaprilm/TTU/blob/master/TTU-SI.ipynb) | Additional [plot options](https://github.com/wrightaprilm/datacarpentry/blob/master/lessons/python/07-plotting-with-matplotlib.md)|
 |2:30-2:45 | Coffee ||
 |2:45-3:30 | Python Classes and code optimization using iPython, [os module](https://github.com/wrightaprilm/TTU/blob/master/data_as_read-only.md) and good data practices ||
 |3:30-4:15 | TACC ||
