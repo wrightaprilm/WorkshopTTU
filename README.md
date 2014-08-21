@@ -42,7 +42,7 @@ This is the homepage for the [Software Carpentry](software-carpentry.org/) [Texa
 |12-1 | Lunch ||
 |1-2:30 | Python II | Data Crunching and plotting ||
 |2:30-2:45 | Coffee ||
-|2:45-3:30 | Python Classes and code optimization using iPython, [os module](https://github.com/wrightaprilm/TTU/blob/master/04-data_as_read-only.md) and good data practices ||
+|2:45-3:30 | Python Classes and code optimization using iPython, [os module](https://github.com/wrightaprilm/TTU/blob/master/data_as_read-only.md) and good data practices ||
 |3:30-4:15 | TACC ||
 |4:15-4:30 | Wrap-up ||
 
