@@ -104,5 +104,9 @@ There's some complex stuff going there! So, we're looping over the letter in las
     + But first, think of a test for the input. What must be true of your input for your code to work?
     + And write a test that your output will eventually pass. What must be true of your output if you know you've done this right?
 
+##Challenge Excerise!
+
++ There is a cheatsheet called 'Code Speedups' on the schedule. Are there any places that you can see where you could utilize any of these tricks? If so, implement one!
+
  
 
