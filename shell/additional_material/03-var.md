@@ -1,13 +1,10 @@
 ---
-layout: lesson
-root: ../..
-title: Variables
-level: intermediate
----
-<div class="objectives" markdown="1">
+
 #### Objectives
-*   FIXME
-</div>
+* Learn to work with and modify environment variables
+* create aliases for convenience
+
+---
 
 The shell is just a program, and like other programs, it has variables.
 Those variables control its execution, and by changing their values, you
@@ -245,9 +242,4 @@ alias backup=/bin/zback -v --nostir -R 20000 $HOME $BACKUP_DIR
 As you can see, aliases can save us a lot of typing, and hence a lot of
 typing mistakes.
 
-<div class="keypoints" markdown="1">
 
-#### Key Points
-*   FIXME
-
-</div>
