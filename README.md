@@ -22,7 +22,7 @@ On [this site](https://swcarpentry.etherpad.mozilla.org/4), we have a course Eth
 |**10:30-10:45** | **Coffee** ||
 |**10:45-12** | **Basic Python** | [Cheatsheet Day 1](https://github.com/wrightaprilm/TTU/blob/master/CheastsheetDay1.md) |
 |10:45-11 | [Basics: variables & assignments](https://github.com/wrightaprilm/TTU/blob/master/00-python_variables_and_operators.md) ||
-|11-11:20 | [Control flow](https://github.com/wrightaprilm/TTU/blob/master/01-python_controlf_flow.md) and collections of objects ||
+|11-11:20 | [Control flow and collections of objects](https://github.com/wrightaprilm/TTU/blob/master/01-python_controlf_flow.md) ||
 |11:20-11:55 | [File IO](https://github.com/wrightaprilm/TTU/blob/master/012-python-fileio.md) | [Code Speedups](https://github.com/wrightaprilm/TTU/blob/master/speedups.md)|
 |11:55-12:00 | Minute papers: What is clear? What is unclear? | |
 |**12-1** | **Lunch** ||
@@ -30,7 +30,7 @@ On [this site](https://swcarpentry.etherpad.mozilla.org/4), we have a course Eth
 |1:00-1:15 | [Introduction](git/00-intro.md)
 |1:15-1:30 | [Creating backups](git/01-backup.md)
 |1:30-1:45 | [Collaborating](git/02-collab.md)
-|1:45-2:00 | [Resolving version conflicts](git/03-conflicts.md)
+|1:45-2:00 | [Resolving version conflicts](git/03-conflict.md)
 |2:00-2:15 | [Open science](git/04-open.md)
 |2:15-2:30 | [Using SSH Keys](git/05-sshkeys.md)
 |**2:30-2:45** | **Coffee** ||

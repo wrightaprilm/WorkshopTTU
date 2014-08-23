@@ -67,7 +67,7 @@ To https://github.com/vlad/planets
 
 Our repositories are now in this state:
 
-<img src="img/git-after-first-conflicting-change.svg" alt="After Making First Change" />
+<img src="img/git-after-first-conflicting-change.png" alt="After Making First Change" />
 
 Now let's switch to the copy under `/tmp`
 and make a different change there
@@ -102,7 +102,7 @@ $ git commit -m "Adding a line in the temporary copy"
 
 giving us the following local repository state:
 
-![After Making Second (Conflicting) Change](img/git-after-second-conflicting-change.svg)
+![After Making Second (Conflicting) Change](img/git-after-second-conflicting-change.png)
 
 However, Git won't let us push this change in the temporary repository to GitHub:
 
@@ -219,7 +219,7 @@ $ git commit -m "Merging changes from GitHub"
 
 Our repositories now look like this after locally merging in the changes:
 
-<img src="img/git-after-merging.svg" alt="After Merging Changes Locally" />
+<img src="img/git-after-merging.png" alt="After Merging Changes Locally" />
 
 so we push our merged changes to GitHub:
 
@@ -239,7 +239,7 @@ To https://github.com/vlad/planets.git
 
 to get this:
 
-![After Pushing The Merged Changes To GitHub](img/git-after-pushing-merge.svg)
+![After Pushing The Merged Changes To GitHub](img/git-after-pushing-merge.png)
 
 Git keeps track of what we've merged with what,
 so we don't have to fix things by hand again
