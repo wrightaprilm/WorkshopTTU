@@ -23,7 +23,7 @@ On [this site](https://swcarpentry.etherpad.mozilla.org/4), we have a course Eth
 |**10:45-12** | **Basic Python** | [Cheatsheet Day 1](https://github.com/wrightaprilm/TTU/blob/master/CheastsheetDay1.md) |
 |10:45-11 | [Basics: variables & assignments](https://github.com/wrightaprilm/TTU/blob/master/00-python_variables_and_operators.md) ||
 |11-11:20 | [Control flow and collections of objects](https://github.com/wrightaprilm/TTU/blob/master/01-python_controlf_flow.md) ||
-|11:20-11:55 | [File IO](https://github.com/wrightaprilm/TTU/blob/master/012-python-fileio.md) | [Code Speedups](https://github.com/wrightaprilm/TTU/blob/master/speedups.md)|
+|11:20-11:55 | [File IO](https://github.com/wrightaprilm/TTU/blob/master/02-python-fileio.md) | [Code Speedups](https://github.com/wrightaprilm/TTU/blob/master/speedups.md)|
 |11:55-12:00 | Minute papers: What is clear? What is unclear? | |
 |**12-1** | **Lunch** ||
 |**1-2:30** | **Git** ||
