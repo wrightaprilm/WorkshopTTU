@@ -2,7 +2,7 @@
 
 Pull requests are the currency of open source software. Pull requests happen when you make changes to code that you found on GitHub, and you decide to tell the owners of the code about those changes.
 
-Our chanllenge to you: find a mistake in our code or the text for this class and fix it.
+Our challenge to you: find a mistake in our code or the text for this class and fix it.
 
 ##Detailed instructions
 
