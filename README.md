@@ -4,10 +4,12 @@ TTU
 #Welcome!
 This is the homepage for the [Software Carpentry](software-carpentry.org/) [Texas Tech](http://www.ttu.edu/) [bootcamp](http://wrightaprilm.github.io/2014-08-23-ttu/) repository. On this site, you'll find the code and documents for the course.
 
+On [this site](https://swcarpentry.etherpad.mozilla.org/4), we have a course Etherpad for collective note-taking, or non-ugent questions.
+
 ##Schedule
 
 ###Day One
-|Time | Topic |
+|Time | Topic | Additional info |
 |-----|------------------------------|--------|
 |**8 am** | **Last-minute install issues**   ||
 |**9-9:15** | **Introduction** ||
@@ -33,7 +35,7 @@ This is the homepage for the [Software Carpentry](software-carpentry.org/) [Texa
 |**4:15-4:30** | **Minute papers. What is clear? What are you unclear about?** | |
 
 ###Day Two:
-|Time   | Topic |
+|Time   | Topic | Additional info |
 |-------|------------------------------|--------------|
 |9-9:15 | Recap of Day one, clarify confusing points ||
 |9:15-10:30 | Unit testing ||
@@ -42,7 +44,7 @@ This is the homepage for the [Software Carpentry](software-carpentry.org/) [Texa
 |12-1 | Lunch ||
 |1-2:30 |  Numpy and [plotting](https://github.com/wrightaprilm/TTU/blob/master/TTU-SI.ipynb) | Additional [plot options](https://github.com/wrightaprilm/datacarpentry/blob/master/lessons/python/07-plotting-with-matplotlib.md)|
 |2:30-2:45 | Coffee | |
-|2:45-3:30 | Python Classes and code optimization using iPython, [os module](https://github.com/wrightaprilm/TTU/blob/master/data_as_read-only.md) and good data practices ||
+|2:45-3:30 | [Python Classes](https://github.com/wrightaprilm/TTU/blob/master/05-python-classes.md) and code optimization using iPython, [os module](https://github.com/wrightaprilm/TTU/blob/master/data_as_read-only.md) and good data practices ||
 |3:30-4:15 | TACC ||
 |4:15-4:30 | Wrap-up ||
 
