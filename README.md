@@ -26,7 +26,7 @@ On [this site](https://swcarpentry.etherpad.mozilla.org/4), we have a course Eth
 |11:20-11:55 | [File IO](https://github.com/wrightaprilm/TTU/blob/master/02-python-fileio.md) | [Code Speedups](https://github.com/wrightaprilm/TTU/blob/master/speedups.md)|
 |11:55-12:00 | Minute papers: What is clear? What is unclear? | |
 |**12-1** | **Lunch** ||
-|**1-2:30** | **Git** ||
+|**1-2:30** | **Git** | [Pull Request Challenge](https://github.com/wrightaprilm/TTU/blob/master/PullRequestChallenge.md)|
 |1:00-1:15 | [Introduction](git/00-intro.md)
 |1:15-1:30 | [Creating backups](git/01-backup.md)
 |1:30-1:45 | [Collaborating](git/02-collab.md)
