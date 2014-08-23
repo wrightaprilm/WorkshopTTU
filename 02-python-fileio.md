@@ -12,7 +12,7 @@ Open the file in your text editor. What do you notice about the structure of the
 ```python
 >>> f=open("sites_simple.csv",'r')
 >>> f
-<open file 'locations.csv', mode 'r' at 0x10045d780>
+<open file 'site_simple.csv', mode 'r' at 0x10045d780>
 ```
 
 The above command opens a file, called spreadsheet and holds it in memory for our use in a container called f. 
