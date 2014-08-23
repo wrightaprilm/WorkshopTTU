@@ -26,7 +26,7 @@ On [this site](https://swcarpentry.etherpad.mozilla.org/4), we have a course Eth
 |11:20-11:55 | [File IO](https://github.com/wrightaprilm/TTU/blob/master/012-python-fileio.md) | Code Speedups|
 |11:55-12:00 | Minute papers: What is clear? What is unclear? | |
 |**12-1** | **Lunch** | |
-|**1-2:30** | **Git** | |
+|**1-2:30** | [**Git**](https://github.com/wrightaprilm/TTU/tree/master/git) | |
 |**2:30-2:45** | **Coffee** ||
 |**2:45-3:45** | **Intro to functions and saving code to a file** | |
 |2:45-3:15 | [Basics:](https://github.com/wrightaprilm/TTU/blob/master/03-python_functions.md) What is a function? Why use them? How can I use them? ||
