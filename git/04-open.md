@@ -1,9 +1,7 @@
+Open Science
+------------
+
 ---
-layout: lesson
-root: ../..
-title: Open Science
----
-<div class="objectives" markdown="1">
 
 #### Objectives
 *   Explain how the GNU Public License (GPL) differs from most other open licenses.
@@ -11,14 +9,11 @@ title: Open Science
 *   Correctly add licensing and citation information to a project repository.
 *   Outline options for hosting code and data and the pros and cons of each.
 
-</div>
+---
 
-<blockquote>
-The opposite of "open" isn't "closed".
-The opposite of "open" is "broken".
-<br/>
-&mdash; John Wilbanks
-</blockquote>
+> The opposite of "open" isn't "closed". The opposite of "open" is "broken".
+
+> &mdash; John Wilbanks
 
 Free sharing of information might be the ideal in science,
 but the reality is often more complicated.
@@ -184,7 +179,6 @@ You may also want to include a file called `CITATION` or `CITATION.txt`
 that describes how to reference your project;
 the one for Software Carpentry states:
 
-<div class="file" markdown="1">
 ~~~
 To reference Software Carpentry in publications, please cite both of the following:
 
@@ -199,7 +193,6 @@ Greg Wilson: "Software Carpentry: Lessons Learned". arXiv:1307.5448, July 2013.
   eprint      = {1307.5448}
 }
 ~~~
-</div>
 
 ### Hosting
 
@@ -252,7 +245,7 @@ but many institutions may not allow researchers to do this,
 either because they want to protect future patent applications
 or simply because what's new is often also frightening.
 
-<div class="keypoints" markdown="1">
+---
 
 #### Key Points
 *   Open scientific work is more useful and more highly cited than closed.
@@ -270,18 +263,15 @@ or simply because what's new is often also frightening.
 *   Rules regarding intellectual property and storage of sensitive information apply
     no matter where code and data are hosted.
 
-</div>
+---
 
-<div class="challenge" markdown="1">
+#### Follow-up Challenge
 Find out whether you are allowed to apply an open license to your software.
 Can you do this unilaterally,
 or do you need permission from someone in your institution?
 If so, who?
-</div>
 
-<div class="challenge" markdown="1">
 Find out whether you are allowed to host your work openly on a public forge.
 Can you do this unilaterally,
 or do you need permission from someone in your institution?
 If so, who?
-</div>

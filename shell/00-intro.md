@@ -1,15 +1,14 @@
+
+Introducing the Shell
+---------------------
+
 ---
-layout: lesson
-root: ../..
-title: Introducing the Shell
----
-<div class="objectives" markdown="1">
 
 #### Objectives
 *   Explain how the shell relates to the keyboard, the screen, the operating system, and users' programs.
 *   Explain when and why command-line interfaces should be used instead of graphical interfaces.
 
-</div>
+---
 
 Nelle Nemo, a marine biologist,
 has just returned from a six-month survey of the
@@ -110,7 +109,7 @@ In addition, the command line is often the easiest way to interact with remote m
 As clusters and cloud computing become more popular for scientific data crunching,
 being able to drive them is becoming a necessary skill.
 
-<div class="keypoints" markdown="1">
+---
 
 #### Key Points
 *   A shell is a program whose primary purpose is to read commands and run other programs.
@@ -120,4 +119,6 @@ being able to drive them is becoming a necessary skill.
 *   The shell's main disadvantages are its primarily textual nature
     and how cryptic its commands and operation can be.
 
-</div>
+---
+
+[Home](../README.md) [Next Section](01-filedir.md)

@@ -1,3 +1,5 @@
+
+
 #### Objectives
 *   Explain the similarities and differences between a file and a directory.
 *   Translate an absolute path into a relative path and vice versa.
@@ -15,7 +17,7 @@ which hold files or other directories.
 Several commands are frequently used to create, inspect, rename, and delete files and directories.
 To start exploring them, let's open a shell window:
 
-```unix
+```
 $
 ```
 
@@ -30,8 +32,9 @@ The command's output is the ID of the current user,
 i.e.,
 it shows us who the shell thinks we are:
 
-```unix
+```
 $ whoami
+```
 
 More specifically, when we type `whoami` the shell:
 
@@ -49,7 +52,7 @@ unless we explicitly specify something else.
 Here, the computer's response is `/users/april`,
 which is april's home directory:
 
-```unix
+```
 $ pwd
 ```
 
@@ -91,7 +94,7 @@ because its name begins with `/`.
 Let's see what's in april's home directory by running `ls`,
 which stands for "listing":
 
-```unix
+```
 $ ls
 ```
 
@@ -100,7 +103,7 @@ arranged neatly into columns.
 We can make its output more comprehensible by using the [flag](../../gloss.html#command-line-flag) `-F`,
 which tells `ls` to add a trailing `/` to the names of directories:
 
-```unix
+```
 $ ls -F
 ```
 
@@ -135,7 +138,7 @@ i.e., the command `ls` with the arguments `-F` and `data`.
 The second argument - the one *without* a leading dash - tells `ls` that
 we want a listing of something other than our current working directory:
 
-```unix
+```
 $ ls -F data
 ```
 
@@ -153,8 +156,8 @@ i.e., it tells `ls` how to find something from where we are, rather than from th
 
 > #### Parameters vs. Arguments
 >
-> According to [Wikipedia](https://en.wikipedia.org/wiki/Parameter_(computer_programming)#Parameters_and_arguments),
-> the terms [argument](../../gloss.html#argument) and parameter mean slightly different things.
+> According to [Wikipedia](https://en.wikipedia.org/wiki/Parameter_\(computer_programming\)#Parameters_and_arguments),
+> the terms argument and parameter mean slightly different things.
 > 
 > In practice, however, most people use them interchangeably or inconsistently,
 > so we will too.
@@ -162,7 +165,7 @@ i.e., it tells `ls` how to find something from where we are, rather than from th
 If we run `ls -F /data` (*with* a leading slash) we get a different answer,
 because `/data` is an absolute path.
 
-```unix
+```
 $ ls -F /data
 ```
 
@@ -173,11 +176,11 @@ What if we want to change our current working directory?
 Before we do this, `pwd` shows us that we're in `/users/april`,
 and `ls` without any arguments shows us that directory's contents:
 
-```unix
+```
 $ pwd
 ```
 
-```unix
+```
 $ ls
 ```
 
@@ -185,7 +188,7 @@ We can use `cd` followed by a directory name to change our working directory.
 `cd` stands for "change directory", which is a bit misleading:
 the command doesn't change the directory, it changes the shell's idea of what directory we are in.
 
-```unix
+```
 $ cd data
 ```
 
@@ -193,7 +196,7 @@ $ cd data
 If we run `ls` without arguments now, it lists the contents of our new directory,
 because that's where we now are:
 
-```unix
+```
 $ ls
 ```
 
@@ -201,13 +204,13 @@ We now know how to go down the directory tree:
 how do we go up?
 We could use an absolute path:
 
-```unix
+```
 $ cd /users/april
 ```
 
 but it's almost always simpler to use `cd ..` to go up one level:
 
-```unix
+```
 $ pwd
 $ cd ..
 $ pwd
@@ -219,7 +222,7 @@ $ pwd
 The special directory `..` doesn't usually show up when we run `ls`.
 If we want to display it, we can give `ls` the `-a` flag:
 
-```unix
+```
 $ ls -F -a
 ```
 
@@ -272,19 +275,19 @@ All 1520 files will go into the same directory.
 If she is in her home directory,
 Nelle can see what files she has using the command:
 
-```unix
+```
 $ ls north-pacific-gyre/2012-07-03/
 ```
 
 This is a lot to type, but she can let the shell do most of the work. If she types:
 
-```unix
+```
 $ ls no
 ```
 
 and then presses tab, the shell automatically completes the directory name for her:
 
-```unix
+```
 $ ls north-pacific-gyre/
 ```
 
