@@ -121,4 +121,5 @@ being able to drive them is becoming a necessary skill.
 
 ---
 
-[Home](../README.md) [Next Section](01-filedir.md)
+[Home](../README.md) \|
+[Next Section](01-filedir.md)

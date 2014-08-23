@@ -1,4 +1,7 @@
+Navigating the Filesystem
+-------------------------
 
+---
 
 #### Objectives
 *   Explain the similarities and differences between a file and a directory.
@@ -8,6 +11,7 @@
 *   Identify the actual command, flags, and filenames in a command-line call.
 *   Demonstrate the use of tab completion, and explain its advantages.
 
+---
 
 The part of the operating system responsible for managing files and directories
 is called the file system.
@@ -296,6 +300,7 @@ since it's the only possible completion. Pressing tab again does nothing,
 since there are 1520 possibilities; pressing tab twice brings up a list of all the files,
 and so on. This is called tab completion and we will see it in many other tools as we go on.
 
+---
 
 #### Key Points
 *   The file system is responsible for managing information on the disk.
@@ -308,9 +313,12 @@ and so on. This is called tab completion and we will see it in many other tools 
 *   '..' means "the directory above the current one";
     '.' on its own means "the current directory".
 *   Most files' names are `something.extension`.
-    The extension isn't required,
+    The extension isn't req.uired,
     and doesn't guarantee anything,
     but is normally used to indicate the type of data in the file.
 *   Most commands take options (flags) which begin with a '-'.
 
+---
 
+[Home](../README.md) \|
+[Next Section](02-create.md)

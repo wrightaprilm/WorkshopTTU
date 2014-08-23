@@ -1,20 +1,27 @@
+Creating Files and Directories
+------------------------------
+
+---
+
 #### Objectives
 *   Create a directory hierarchy that matches a given diagram.
 *   Create files in that hierarchy using an editor or by copying and renaming existing files.
 *   Display the contents of a directory using the command line.
 *   Delete specified files and/or directories.
 
+---
+
 We now know how to explore files and directories, but how do we create them in the first place?
 Let's go to your SWC lessons folder, and use `ls -F` to see what it contains:
 
-```unix
+```
 $ ls -F
 ```
 
 Let's create a new directory called `my_scripts` using the command `mkdir my_scripts`
 (which has no output):
 
-```unix
+```
 $ mkdir my_scripts
 ```
 
@@ -22,7 +29,7 @@ As you might (or might not) guess from its name, `mkdir` means "make directory".
 Since `my_scripts` is a relative path (i.e., doesn't have a leading slash),
 the new directory is made below the current working directory:
 
-```unix
+```
 $ ls -F
 ```
 
@@ -38,7 +45,7 @@ then run a text editor called Nano to create a file called `draft.txt`:
 ```
 $ cd my_scripts
 $ touch draft.txt
-~~~
+```
 
 
 > #### Which Editor?
@@ -71,14 +78,14 @@ but `ls` now shows that we have created a file called `draft.txt`:
 
 Let's tidy up by running `rm draft.txt`:
 
-```unix
+```
 $ rm draft.txt
 ```
 
 This command removes files ("rm" is short for "remove"). If we run `ls` again,
 its output is empty once more, which tells us that our file is gone:
 
-```unix
+```
 $ ls
 ```
 
@@ -93,7 +100,7 @@ $ ls
 
 Let's re-create that file and then move up one directory to your SWC folder using `cd ..`:
 
-```unix
+```
 $ pwd
 $ touch draft.txt
 $ ls
@@ -103,7 +110,7 @@ $ cd ..
 If we try to remove the entire `my_scripts` directory using `rm my_scripts`,
 we get an error message:
 
-```unix
+```
 $ rm my_scripts
 rm: cannot remove `my_scripts': Is a directory
 ```
@@ -112,7 +119,7 @@ This happens because `rm` only works on files, not directories. The right comman
 which is short for "remove directory". It doesn't work yet either, though,
 because the directory we're trying to remove isn't empty:
 
-```unix
+```
 $ rmdir my_scripts
 rmdir: failed to remove `my_scripts': Directory not empty
 ```
@@ -120,13 +127,13 @@ rmdir: failed to remove `my_scripts': Directory not empty
 This little safety feature can save you a lot of grief, particularly if you are a bad typist.
 To really get rid of `my_scripts` we must first delete the file `draft.txt`:
 
-```unix
+```
 $ rm my_scripts/draft.txt
 ```
 
 The directory is now empty, so `rmdir` can delete it:
 
-```unix
+```
 $ rmdir my_scripts
 ```
 
@@ -136,7 +143,7 @@ $ rmdir my_scripts
 > directory quickly becomes tedious. Instead, we can use `rm` with the
 > `-r` flag (which stands for "recursive"):
 > 
-> ```unix
+> ```
 > $ rm -r my_scripts
 > ```
 > 
@@ -152,7 +159,7 @@ rather than going into the `my_scripts` directory and running `nano` or 'vim' on
 `draft.txt` isn't a particularly informative name, so let's change the file's name using `mv`,
 which is short for "move":
 
-```unix
+```
 $ mv my_scripts/draft.txt my_scripts/quotes.txt
 ```
 
@@ -161,7 +168,7 @@ In this case, we're moving `my_scripts/draft.txt` to `my_scripts/quotes.txt`,
 which has the same effect as renaming the file. Sure enough,
 `ls` shows us that `my_scripts` now contains one file called `quotes.txt`:
 
-```unix
+```
 $ ls my_scripts
 ```
 
@@ -173,21 +180,21 @@ to tell `mv` that we want to keep the filename, but put the file somewhere new.
 (This is why the command is called "move".) In this case,
 the directory name we use is the special directory name `.` that we mentioned earlier.
 
-```unix
+```
 $ mv my_scripts/quotes.txt .
 ```
 
 The effect is to move the file from the directory it was in to the current working directory.
 `ls` now shows us that `my_scripts` is empty:
 
-```unix
+```
 $ ls my_scripts
 ```
 
 Further, `ls` with a filename or directory name as a parameter only lists that file or directory.
 We can use this to see that `quotes.txt` is still in our current directory:
 
-```unix
+```
 $ ls quotes.txt
 ```
 
@@ -195,7 +202,7 @@ The `cp` command works very much like `mv`, except it copies a file instead of m
 We can check that it did the right thing using `ls` with two paths as parameters&mdash;like most Unix commands,
 `ls` can be given thousands of paths at once:
 
-```unix
+```
 $ cp quotes.txt my_scripts/quotations.txt
 $ ls quotes.txt my_scripts/quotations.txt
 ```
@@ -204,7 +211,7 @@ To prove that we made a copy, let's delete the `quotes.txt` file in the current 
 and then run that same `ls` again. This time it tells us that it can't find `quotes.txt` 
 in the current directory, but it does find the copy in `my_scripts` that we didn't delete:
 
-```unix
+```
 $ ls quotes.txt my_scripts/quotations.txt
 ls: cannot access quotes.txt: No such file or directory
 my_scripts/quotations.txt
@@ -223,4 +230,5 @@ my_scripts/quotations.txt
 *   Unix documentation uses '^A' to mean "control-A".
 *   The shell does not have a trash bin: once something is deleted, it's really gone.
 
-
+[Home](../README.md) \|
+[Next Section](03-pipefilter.md)
