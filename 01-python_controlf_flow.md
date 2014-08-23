@@ -10,7 +10,7 @@ A list is an ordered collection of elements. These elements can be of different 
 
 
 ```python
->>> last_name = ['w', 'r, 'i', 'g', 'h', 't','5','1,'2']
+>>> last_name = ['w', 'r', 'i', 'g', 'h', 't','5','1','2']
 ```
 
 The equals sign creates an item called last_name. When the Python interpreter reaches the open square bracket, it knows to expect items to be stored in a list. Each item in the list is enclosed in single quotes, separated from all other list elements by a comma.
