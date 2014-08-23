@@ -36,7 +36,7 @@ On [this site](https://swcarpentry.etherpad.mozilla.org/4), we have a course Eth
 |**2:30-2:45** | **Coffee** ||
 |**2:45-3:45** | **Intro to functions and saving code to a file** | |
 |2:45-3:15 | [Basics:](https://github.com/wrightaprilm/TTU/blob/master/03-python_functions.md) What is a function? Why use them? How can I use them? ||
-|3:15-3:45 | [Code reuse](https://github.com/wrightaprilm/TTU/blob/master/04-scripts_as_modules.md) and importing functions for use in other scripts | |
+|3:15-3:45 | [Code reuse](https://github.com/wrightaprilm/TTU/blob/master/04-python_scripts_as_modules.md) and importing functions for use in other scripts | |
 |**3:45-4:15** | **Catch-up Time** | |
 |**4:15-4:30** | **Minute papers. What is clear? What are you unclear about?** | |
 
