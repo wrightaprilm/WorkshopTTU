@@ -14,19 +14,25 @@ On [this site](https://swcarpentry.etherpad.mozilla.org/4), we have a course Eth
 |**8 am** | **Last-minute install issues**   ||
 |**9-9:15** | **Introduction** ||
 |**9:15-10:30** | **Shell** ||
-|9:15-9:30 | Shell [Basics](https://github.com/wrightaprilm/TTU/blob/master/00-intro.md) ||
-|9:30-9:45 | [File structure](https://github.com/wrightaprilm/TTU/blob/master/01-filedir.md), [File creation](https://github.com/wrightaprilm/TTU/blob/master/03-pipefilter.md) ||
-|9:45-10 | [Piping](https://github.com/wrightaprilm/TTU/blob/master/03-pipefilter.md), [Looping](https://github.com/wrightaprilm/TTU/blob/master/04-loop.md) ||
-|10-10:15 | [Searching](https://github.com/wrightaprilm/TTU/blob/master/06-find.md)  ||
-|10:15-1:30| [Scripting](https://github.com/wrightaprilm/TTU/blob/master/05-script.md) ||
+|9:15-9:30 | [Shell basics](shell/00-intro.md) ||
+|9:30-9:45 | [File structure](shell/01-filedir.md), [File creation](shell/03-pipefilter.md) ||
+|9:45-10 | [Piping](shell/03-pipefilter.md), [Looping](shell/04-loop.md) ||
+|10-10:15 | [Searching](shell/06-find.md)  ||
+|10:15-10:30| [Scripting](shell/05-script.md) ||
 |**10:30-10:45** | **Coffee** ||
 |**10:45-12** | **Basic Python** | [Cheatsheet Day 1](https://github.com/wrightaprilm/TTU/blob/master/CheastsheetDay1.md) |
-|10:45-11 | [Basics:](https://github.com/wrightaprilm/TTU/blob/master/00-python_variables_and_operators.md) variables & assignments||
-|11-11:20 | [Control Flow](https://github.com/wrightaprilm/TTU/blob/master/01-python_controlf_flow.md) and collections of objects ||
+|10:45-11 | [Basics: variables & assignments](https://github.com/wrightaprilm/TTU/blob/master/00-python_variables_and_operators.md) ||
+|11-11:20 | [Control blow](https://github.com/wrightaprilm/TTU/blob/master/01-python_controlf_flow.md) and collections of objects ||
 |11:20-11:55 | [File IO](https://github.com/wrightaprilm/TTU/blob/master/012-python-fileio.md) | Code Speedups|
 |11:55-12:00 | Minute papers: What is clear? What is unclear? | |
-|**12-1** | **Lunch** | |
-|**1-2:30** | **Git** | |
+|**12-1** | **Lunch** ||
+|**1-2:30** | **Git** ||
+|1:00-1:15 | [Introduction](git/00-intro.md)
+|1:15-1:30 | [Creating backups](git/01-backup.md)
+|1:30-1:45 | [Collaborating](git/02-collab.md)
+|1:45-2:00 | [Resolving version conflicts](git/03-conflicts.md)
+|2:00-2:15 | [Open science](git/04-open.md)
+|2:15-2:30 | [Using SSH Keys](git/05-sshkeys.md)
 |**2:30-2:45** | **Coffee** ||
 |**2:45-3:45** | **Intro to functions and saving code to a file** | |
 |2:45-3:15 | [Basics:](https://github.com/wrightaprilm/TTU/blob/master/03-python_functions.md) What is a function? Why use them? How can I use them? ||
