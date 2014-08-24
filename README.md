@@ -51,7 +51,7 @@ On [this site](https://swcarpentry.etherpad.mozilla.org/4), we have a course Eth
 |10:45-12 | I assume we might need to wrap unit testing during this slot. If we have extra time, I could introduce the os module and good data practices ||
 |12-1 | Lunch ||
 |1-2:30 | Numpy and plotting | Additional [plot options](https://github.com/wrightaprilm/datacarpentry/blob/master/lessons/python/07-plotting-with-matplotlib.md)|
-|1-1:20 | Intro to [Pandas](/data-crunching/01-starting-with-data.md) and [Indexing Data](/data-crunching/02-indexing.md)
+|1-1:20 | Intro to [Pandas](/data-crunching/01-starting-with-data.md) and [Indexing Data](/data-crunching/02-indexing.md) | [Math cheatsheet](data-crunching/math.md)
 |1:20-1:45 | [Checking your data](/data-crunching/03-checking_your_data.md) | |
 |1:45-2:15 | [Merging ](/data-crunching/06-merging-data.md) Data Frames | |
 |2:15-2:30 | [Masking] (/data-crunching/05-masking-and-groups.md) | |
