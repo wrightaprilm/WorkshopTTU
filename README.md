@@ -43,23 +43,23 @@ On [this site](https://swcarpentry.etherpad.mozilla.org/4), we have a course Eth
 ###Day Two:
 |Time   | Topic | Additional info |
 |-----|------------------------------|--------|
-|9-9:15 | Recap of Day one, clarify confusing points ||
-|9:15-10:30 | Unit testing ||
+|9-9:15 | **Recap of Day one, clarify confusing points** ||
+|9:15-10:30 | **Unit testing** ||
 |9:15-9:30 | iPython Notebooks ||
 | | [Defensive Programming, Exceptions, Unit Testing](testing/03-qa.md) |[(notebook version)](testing/03-qa.ipynb)|
-|10:30-10:45 | Coffee ||
+|10:30-10:45 | **Coffee** ||
 |10:45-12 | I assume we might need to wrap unit testing during this slot. If we have extra time, I could introduce the os module and good data practices ||
-|12-1 | Lunch ||
-|1-2:30 | Numpy and plotting | Additional [plot options](https://github.com/wrightaprilm/datacarpentry/blob/master/lessons/python/07-plotting-with-matplotlib.md)|
+|12-1 | **Lunch** ||
+|1-2:30 | **Data crunching and plotting** | Additional [plot options](https://github.com/wrightaprilm/datacarpentry/blob/master/lessons/python/07-plotting-with-matplotlib.md)|
 |1-1:20 | Intro to [Pandas](/data-crunching/01-starting-with-data.md) and [Indexing Data](/data-crunching/02-indexing.md) | [Math cheatsheet](data-crunching/math.md)
 |1:20-1:45 | [Checking your data](/data-crunching/03-checking_your_data.md) | |
-|1:45-2:15 | [Merging ](/data-crunching/06-merging-data.md) Data Frames | |
-|2:15-2:30 | [Masking] (/data-crunching/05-masking-and-groups.md) | |
+|1:45-2:00 | [Merging ](/data-crunching/06-merging-data.md) Data Frames | |
+|2-2:30 | [Plotting](/data-crunching/TTU-SI.ipynb) || 
 |2:30-2:45 | Coffee | |
 |2:45-3:15 | [Python Classes](python/05-python-classes.md)  | |
-|3:15-3:45 | [os module](data-crunching/04-data_as_read-only.md) and good data practices ||
-|3:45-4:00 | Ipython magic functions and code optimization ||
-|3:45-4:15 | TACC ||
-|4:15-4:30 | Wrap-up ||
+|3:15-3:45 | **[os module](data-crunching/04-data_as_read-only.md) and good data practices** ||
+|3:45-4:00 | **[Ipython magic functions and code optimization](python/ipython_magic_functions.md)** ||
+|3:45-4:15 | **TACC** ||
+|4:15-4:30 | **Wrap-up** ||
 
 
