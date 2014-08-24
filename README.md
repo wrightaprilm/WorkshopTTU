@@ -52,7 +52,7 @@ On [this site](https://swcarpentry.etherpad.mozilla.org/4), we have a course Eth
 |12-1 | Lunch ||
 |1-2:30 | Numpy and plotting | Additional [plot options](https://github.com/wrightaprilm/datacarpentry/blob/master/lessons/python/07-plotting-with-matplotlib.md)|
 |1-1:20 | Intro to [Pandas](/data-crunching/01-starting-with-data.md) and [Indexing Data](/data-crunching/02-indexing.md)
-|1:20-1:45 | [Checking your data](/data-crunching/03-checking_your_data.md) and Data as [Read-Only](04-data_as_read-only) | |
+|1:20-1:45 | [Checking your data](/data-crunching/03-checking_your_data.md) and Data as [Read-Only](data-crunching/04-data_as_read-only) | |
 |1:45-2:15 | [Merging ](data-crunching/06-merging-data) Data Frames | |
 |2:15-2:30 | [Masking] (data-crunching/05-masking-and-groups) | |
 |2:30-2:45 | Coffee | |
