@@ -57,7 +57,7 @@ On [this site](https://swcarpentry.etherpad.mozilla.org/4), we have a course Eth
 |2:15-2:30 | [Masking] (/data-crunching/05-masking-and-groups.md) | |
 |2:30-2:45 | Coffee | |
 |2:45-3:15 | [Python Classes](python/05-python-classes.md)  | |
-|3:15-3:45 | [os module](/04-data_as_read-only) and good data practices ||
+|3:15-3:45 | [os module](data-crunching/04-data_as_read-only.md) and good data practices ||
 |3:45-4:00 | Ipython magic functions and code optimization ||
 |3:45-4:15 | TACC ||
 |4:15-4:30 | Wrap-up ||
