@@ -18,7 +18,7 @@ Data as read-only means exactly that: when you interact with a file, you don't m
 
 ```python
 import pandas as pd
-mydata = pd.read_csv("data/surveys.csv")
+mydata = pd.read_csv("data-crunching/surveys.csv")
 ```
 
 As a refresher, here is a function from lesson 3 that fills in missing data with zeros:
