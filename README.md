@@ -27,7 +27,7 @@ On [this site](https://swcarpentry.etherpad.mozilla.org/4), we have a course Eth
 |11:55-12:00 | Minute papers: What is clear? What is unclear? | |
 |**12-1** | **Lunch** ||
 |**1-2:30** | **Git** | [Pull Request Challenge](https://github.com/wrightaprilm/TTU/blob/master/PullRequestChallenge.md)|
-|1:00-1:15 | [Introduction](git/00-intro.md)
+|1:00-1:15 | [Introduction](git/00-intro.md) | [Simple Daily Git Workflow](git/simple-daily-git-workflow.jpg)|
 |1:15-1:30 | [Creating backups](git/01-backup.md)
 |1:30-1:45 | [Collaborating](git/02-collab.md)
 |1:45-2:00 | [Resolving version conflicts](git/03-conflict.md)
@@ -42,9 +42,11 @@ On [this site](https://swcarpentry.etherpad.mozilla.org/4), we have a course Eth
 
 ###Day Two:
 |Time   | Topic | Additional info |
-|-------|------------------------------|--------------|
+|-----|------------------------------|--------|
 |9-9:15 | Recap of Day one, clarify confusing points ||
 |9:15-10:30 | Unit testing ||
+|9:15-9:30 | iPython Notebooks ||
+| | [Defensive Programming, Exceptions, Unit Testing](testing/03-qa.md) |[(notebook version)](testing/03-qa.ipynb)|
 |10:30-10:45 | Coffee ||
 |10:45-12 | I assume we might need to wrap unit testing during this slot. If we have extra time, I could introduce the os module and good data practices ||
 |12-1 | Lunch ||
