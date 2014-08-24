@@ -35,8 +35,8 @@ On [this site](https://swcarpentry.etherpad.mozilla.org/4), we have a course Eth
 |2:15-2:30 | [Using SSH Keys](git/05-sshkeys.md)
 |**2:30-2:45** | **Coffee** ||
 |**2:45-3:45** | **Intro to functions and saving code to a file** | |
-|2:45-3:15 | [Basics:](https://github.com/wrightaprilm/TTU/blob/master/03-python_functions.md) What is a function? Why use them? How can I use them? ||
-|3:15-3:45 | [Code reuse](https://github.com/wrightaprilm/TTU/blob/master/04-python_scripts_as_modules.md) and importing functions for use in other scripts | |
+|2:45-3:15 | [Basics:](python/03-python_functions.md) What is a function? Why use them? How can I use them? ||
+|3:15-3:45 | [Code reuse](python/04-python_scripts_as_modules.md) and importing functions for use in other scripts | |
 |**3:45-4:15** | **Catch-up Time** | |
 |**4:15-4:30** | **Minute papers. What is clear? What are you unclear about?** | |
 
@@ -52,12 +52,12 @@ On [this site](https://swcarpentry.etherpad.mozilla.org/4), we have a course Eth
 |12-1 | Lunch ||
 |1-2:30 | Numpy and plotting | Additional [plot options](https://github.com/wrightaprilm/datacarpentry/blob/master/lessons/python/07-plotting-with-matplotlib.md)|
 |1-1:20 | Intro to [Pandas](/data-crunching/01-starting-with-data.md) and [Indexing Data](/data-crunching/02-indexing.md)
-|1:20-1:45 | [Checking your data](/data-crunching/03-checking_your_data.md) and Data as [Read-Only](data-crunching/04-data_as_read-only) | |
-|1:45-2:15 | [Merging ](data-crunching/06-merging-data) Data Frames | |
-|2:15-2:30 | [Masking] (data-crunching/05-masking-and-groups) | |
+|1:20-1:45 | [Checking your data](/data-crunching/03-checking_your_data.md) | |
+|1:45-2:15 | [Merging ](/data-crunching/06-merging-data) Data Frames | |
+|2:15-2:30 | [Masking] (/data-crunching/05-masking-and-groups) | |
 |2:30-2:45 | Coffee | |
 |2:45-3:15 | [Python Classes](python/05-python-classes.md)  | |
-|3:15-3:45 | [os module](04-data_as_read-only) and good data practices ||
+|3:15-3:45 | [os module](/04-data_as_read-only) and good data practices ||
 |3:45-4:00 | Ipython magic functions and code optimization ||
 |3:45-4:15 | TACC ||
 |4:15-4:30 | Wrap-up ||
