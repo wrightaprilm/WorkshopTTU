@@ -21,9 +21,9 @@ On [this site](https://swcarpentry.etherpad.mozilla.org/4), we have a course Eth
 |10:15-10:30| [Scripting](shell/05-script.md) ||
 |**10:30-10:45** | **Coffee** ||
 |**10:45-12** | **Basic Python** | [Cheatsheet Day 1](https://github.com/wrightaprilm/TTU/blob/master/CheastsheetDay1.md) |
-|10:45-11 | [Basics: variables & assignments](https://github.com/wrightaprilm/TTU/blob/master/00-python_variables_and_operators.md) ||
-|11-11:20 | [Control flow and collections of objects](https://github.com/wrightaprilm/TTU/blob/master/01-python_controlf_flow.md) ||
-|11:20-11:55 | [File IO](https://github.com/wrightaprilm/TTU/blob/master/02-python-fileio.md) | [Code Speedups](https://github.com/wrightaprilm/TTU/blob/master/speedups.md)|
+|10:45-11 | [Basics: variables & assignments](python/00-python_variables_and_operators.md) ||
+|11-11:20 | [Control flow and collections of objects](python/01-python_controlf_flow.md) ||
+|11:20-11:55 | [File IO](python/02-python-fileio.md) | [Code Speedups](python/speedups.md)|
 |11:55-12:00 | Minute papers: What is clear? What is unclear? | |
 |**12-1** | **Lunch** ||
 |**1-2:30** | **Git** | [Pull Request Challenge](https://github.com/wrightaprilm/TTU/blob/master/PullRequestChallenge.md)|
@@ -48,10 +48,16 @@ On [this site](https://swcarpentry.etherpad.mozilla.org/4), we have a course Eth
 |10:30-10:45 | Coffee ||
 |10:45-12 | I assume we might need to wrap unit testing during this slot. If we have extra time, I could introduce the os module and good data practices ||
 |12-1 | Lunch ||
-|1-2:30 |  Numpy and [plotting](https://github.com/wrightaprilm/TTU/blob/master/TTU-SI.ipynb) | Additional [plot options](https://github.com/wrightaprilm/datacarpentry/blob/master/lessons/python/07-plotting-with-matplotlib.md)|
+|1-2:30 | Numpy and plotting | Additional [plot options](https://github.com/wrightaprilm/datacarpentry/blob/master/lessons/python/07-plotting-with-matplotlib.md)|
+|1-1:20 | Intro to [Pandas](/data-crunching/01-starting-with-data.md) and [Indexing Data](/data-crunching/02-indexing.md)
+|1:20-1:45 | [Checking your data](/data-crunching/03-checking_your_data.md) and Data as [Read-Only](04-data_as_read-only) | |
+|1:45-2:15 | [Merging ](data-crunching/06-merging-data) Data Frames | |
+|2:15-2:30 | [Masking] (data-crunching/05-masking-and-groups) | |
 |2:30-2:45 | Coffee | |
-|2:45-3:30 | [Python Classes](https://github.com/wrightaprilm/TTU/blob/master/05-python-classes.md) and code optimization using iPython, [os module](https://github.com/wrightaprilm/TTU/blob/master/data_as_read-only.md) and good data practices ||
-|3:30-4:15 | TACC ||
+|2:45-3:15 | [Python Classes](python/05-python-classes.md)  | |
+|3:15-3:45 | [os module](04-data_as_read-only) and good data practices ||
+|3:45-4:00 | Ipython magic functions and code optimization ||
+|3:45-4:15 | TACC ||
 |4:15-4:30 | Wrap-up ||
 
 
