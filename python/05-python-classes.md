@@ -85,8 +85,9 @@ For example:
 
 ```python
 class Model(object):
-    def __init__(self, name):
+    def __init__(self, name, collector):
         self.name = name
+		self.colector = c_name
     def set_math(self, math):
         self.math = math 
     def set_lat(self, lat):
@@ -101,7 +102,7 @@ coords.set_math(coords.lat*coords.long)
 
 ```
 
-Here, we've programmed a really simple model that returns a result. We can imagine that if we wanted to model the data in a more complex way than this nonsense, we could build a new class that inherits aspects from this model. Many software packages in biology are moving towards this framework. Classes give people power to define small classes to do organize the important aspects of their data, or of models, and they allow easy attribution of that work back to specific individuals.
+Here, we've programmed a really simple model that returns a result (not that it should be believed the result should mean anything). We also added a 'collector' aspect to the __init__ statement, in case we wanted to compare SWC locations to another software school (like the Hacker School). We can imagine that if we wanted to model the data in a more complex way than this nonsense, we could build a new class that inherits aspects from this model. Many software packages in biology are moving towards this framework. Classes give people power to define small classes to do organize the important aspects of their data, or of models, and they allow easy attribution of that work back to specific individuals.
 
 
 

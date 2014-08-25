@@ -2,7 +2,7 @@
 
 Writing scripts is all fine and good. But we want our scripts to save us time. We want to reuse them, so we're not doubling up on work constantly. 
 
-Let's take the code we just made and saved to a script. If that is a useful function, we might want to use it in multiple scripts (tomorrow, I will show you an example of a function I use almost daily). 
+Let's take the code we just made and saved to a script. If that is a useful function, we might want to use it in multiple scripts (tomorrow, I will show you an example of a function I use almost daily). We could do this by copying and pasting the script into every script in which we would like to use it. But that's a lot of work, and makes our files bigger. We could move the script between directories every time we want to use it, but again, this is work, and leaves us prone to forgetting where our scripts are located. Ideally, we'd like to have one copy of each script, in a version-controlled repository with unit tests.
 
 We're going to add a small piece to the bottom of our script:
 
